@@ -43,3 +43,10 @@ appraise 'rails61' do
   gem "pg", ">= 1.1", "< 2.0"
   gem "sqlite3", "~> 1.4"
 end
+
+appraise 'railsedge' do
+  gem 'rails', ref: "f3d703967ee304f3b0bba8f7e334595e0a8249e7"
+  gem "mysql2", ">= 0.4.4"
+  gem "pg", ">= 1.1", "< 2.0"
+  gem "sqlite3", "~> 1.4"
+end
